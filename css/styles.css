@@ -45,13 +45,15 @@ body {
     letter-spacing: 0.02em;
 }
 
-/* Стиль к спискам общий */
+/* Стиль к спискам и ссылкам общий */
 
 .list {
     list-style: none;
 }
 
-
+.link {
+    text-decoration: none;
+}
 
 
 /* Логотип в шапке */
@@ -72,13 +74,10 @@ body {
     
 }
 
-.link {
-    text-decoration: none;
-}
+
 
 /* Навигация по сайту+контактная информация */
 
-.nav-links .nav-link, 
 .addres-list .address-link,
 .contact-list .contact-link {
     color: var(--title-paragrav-color);
@@ -86,6 +85,14 @@ body {
     letter-spacing: 0.02em;
     font-style: normal;
 }
+
+.nav-links .nav-link {
+    color:var(--primary-text-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    }
+
 
 
 /* Навигация по сайту + контактная информация в ховере*/
@@ -139,7 +146,10 @@ body {
 }
 
 .hero .hero-button:hover,
-.hero .hero-button:focus,
+.hero .hero-button:focus {
+
+    background-color: #404bbf;
+}
 
 
 /* Стили для кнопок на странице Портфолио*/
@@ -152,6 +162,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
+    line-height: 1.5;
 }
 
 /* Ховер кнопок страницы Портфлио */
@@ -178,12 +189,25 @@ body {
     letter-spacing: 0.02em;
 }
 
+.section .section-caption {
+    color: var(--primary-text-color);
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
 /* Секция галерея,оформление заголовков и параграфа */
 
 .section-galery .galery-title {
     color: var(--primary-text-color);
     font-size: 20px;
     line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .section-text {
@@ -195,9 +219,7 @@ body {
 
 /* Стили к галерее на странице портфолио */
 
-.galery-list .galery-link {
-    text-decoration: none;
-}
+
 
 .galery-paragrav {
     color: var(--title-paragrav-color);
@@ -212,6 +234,8 @@ body {
     font-weight: 500;
     letter-spacing: 0.02em;
 }
+
+
 
 /* CТили для челенов команды */
 .section-team {
