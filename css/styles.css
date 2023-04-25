@@ -40,6 +40,7 @@ body {
     font-size: 16px;
     line-height: 1.5 ;
     font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
     
 }
 
@@ -56,10 +57,13 @@ body {
 
 .logo {
     color: var(--button-color);
-    text-decoration: none;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    text-transform: uppercase;
+    
 }
 .logo-text {
     color: var(--primary-text-color);
@@ -67,13 +71,19 @@ body {
     
 }
 
+.link {
+    text-decoration: none;
+}
+
 /* Навигация по сайту+контактная информация */
 
 .nav-links .nav-link, 
 .addres-list .address-link,
 .contact-list .contact-link {
-    text-decoration: none;
-    color: var(--primary-text-color);
+    color: var(--title-paragrav-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 /* Навигация по сайту + контактная информация в ховере*/
@@ -84,7 +94,7 @@ body {
 .addres-list .address-link:focus,
 .contact-list .contact-link:hover,
 .contact-list .contact-link:focus {
-    color: var(--title-paragrav-color)
+    color: var(--acsent-color)
 }
 
 /* Навигация по сайту+контактная информация в активе */
@@ -93,6 +103,12 @@ body {
 .addres-list .address-link:active,
 .contact-list .contact-link:active {
     color: #4D5AE5;
+}
+
+/* Контакты */
+
+.contact {
+    font-style: normal;
 }
 
 /* Стили героя сайта */
