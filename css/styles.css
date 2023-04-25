@@ -31,6 +31,7 @@ line-height: 1.2 множитель */
     --title-paragrav-color: #434455;
     --acsent-color: #404BBF;
     --button-color: #4D5AE5;
+    --button-portvolio-color : #F4F4FD;
 }
 
 /* Глобальные стили */
@@ -140,22 +141,30 @@ body {
 .hero .hero-button:hover,
 .hero .hero-button:focus,
 
-/* Ховер кнопок страницы Портфлио */
-
-.buttons .meny-button:hover,
-.buttons .meny-button:focus {
-    background-color: var(--acsent-color);
-    color: #ffffff;
-    cursor: pointer;
-}
 
 /* Стили для кнопок на странице Портфолио*/
 
-.buttons .meny-button {
-    background-color: #E7E9FC;
-    color: #4D5AE5;
+.section-galery .meny-button {
+    background-color: var(--button-portvolio-color);
+    color: var(--button-color);
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
 }
+
+/* Ховер кнопок страницы Портфлио */
+
+.section-galery .meny-button:hover,
+.section-galery .meny-button:focus {
+    background-color: var(--acsent-color);
+    color: #ffffff;
+    
+}
+
+
+
 
 /* Общие стили для секций и заголовков */
 
