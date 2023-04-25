@@ -41,7 +41,7 @@ body {
     line-height: 1.5 ;
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    
+    letter-spacing: 0.02em;
 }
 
 /* Стиль к спискам общий */
@@ -80,7 +80,7 @@ body {
 .nav-links .nav-link, 
 .addres-list .address-link,
 .contact-list .contact-link {
-    color: var(--title-paragrav-color);
+    color: var(--primary-text-color);
     font-weight: 500;
     letter-spacing: 0.02em;
     font-style: normal;
@@ -121,12 +121,19 @@ body {
     color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .hero .hero-button {
     color: #ffffff;
     background-color: var(--button-color); 
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .hero .hero-button:hover,
@@ -157,7 +164,8 @@ body {
     color: var(--primary-text-color);
     font-size: 36px;
     line-height: 1.11;
-
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 /* Секция галерея,оформление заголовков и параграфа */
@@ -187,9 +195,9 @@ body {
 }
 
 /* CТили для челенов команды */
-
-.team-wrap {
-    background-color: #F4F4FD;
+.section .team-title {
+    text-align: center;
+    text-transform: capitalize;
 }
 
 /* Стили футтера */
@@ -202,7 +210,7 @@ body {
 /* Логотип футтера */
 
 .footer .footer-logo {
-    color: #ffffff;
+    color: #f4f4fd;
 
 }
 
