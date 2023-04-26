@@ -78,10 +78,9 @@ body {
 
 /* Навигация по сайту+контактная информация */
 
-.addres-list .address-link,
 .contact-list .contact-link {
     color: var(--title-paragrav-color);
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.02em;
     font-style: normal;
 }
@@ -193,7 +192,7 @@ body {
     color: var(--primary-text-color);
     font-size: 36px;
     line-height: 1.11;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -246,7 +245,7 @@ body {
     color: var(--primary-text-color);
     font-size: 36px;
     line-height: 1.11;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
